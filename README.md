@@ -108,7 +108,7 @@ For a curated list of learning resources please check out [desireevl's repo](htt
 - [QPlayer](https://github.com/eQuantumOS/QPlayer) - Light-weight, scalable and fast quantum Schrödinger simulator ([paper](https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.2021-0442)).
 - [Qrack](https://github.com/vm6502q/qrack) - Comprehensive qubit and gate implementation for developing universal virtual quantum processors.
 - [qSim](https://github.com/haykkh/qSim) - High level, elementary simulation library.
-- [QSim](https://github.com/quantumlib/qsim) - Schrödinger and Schrödinger-Feynman simulators for quantum circuits.
+- [qsim](https://github.com/quantumlib/qsim) - Open-source, GPU-enabled C++ and Python library for fast state-vector simulation of quantum circuits.
 - [Quantum++](https://github.com/softwareqinc/qpp) - High-performance general purpose quantum simulator (can simulate d-dimensional qudits) ([paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208073)).
 - [tweedledum](https://github.com/boschmitt/tweedledum) - Library for synthesis, compilation, and optimization of quantum circuits.
 
@@ -155,6 +155,7 @@ For a curated list of learning resources please check out [desireevl's repo](htt
 - [QCircuits](https://github.com/grey-area/qcircuits) - User-friendly quantum circuit simulator designed for students and newcomers to quantum computing.
 - [QCompute](https://github.com/baidu/QCompute) - [Baidu](http://research.baidu.com/Research_Areas/index-view?id=75)'s software development kit for designing quantum circuits and simulating on a high-performance simulator.
 - [Qibo](https://github.com/qiboteam/qibo) - Framework for quantum simulation with hardware acceleration using just-in-time compilation.
+- [qsim](https://github.com/quantumlib/qsim) - Open-source, GPU-enabled C++ and Python library for fast state-vector simulation of quantum circuits.
 - [QTop](https://github.com/jacobmarks/QTop) - Simulation and visualization of topological quantum computers.
 - [quantum-computing](https://github.com/QuantumSystems/quantum-computing) - Functionally complete simulator for universal quantum computing in Python
 - [Quditto](https://github.com/Networks-it-uc3m/Quditto) - QKD Network emulator that automatically deploys distributed, ETSI GS QKD 014–compliant QKD networks.
@@ -283,7 +284,7 @@ For a curated list of learning resources please check out [desireevl's repo](htt
 **Python**
 - [Arline Benchmarks](https://github.com/ArlineQ/arline_benchmarks) - Automated benchmarking platform for quantum compilers, quantum hardware and quantum algorithms.
 - [BQSKit](https://github.com/BQSKit) - Berkeley Quantum Synthesis Toolkit is an optimizing quantum compiler and related tool-set.
-- [Mitiq](https://github.com/unitaryfund/mitiq) - Cross-platform, error-mitigating quantum compiler from [Unitary Fund](https://unitary.fund/).
+- [Mitiq](https://github.com/unitaryfoundation/mitiq) - Cross-platform, quantum error mitigation toolkit and compiler from [Unitary Foundation](https://unitary.foundation/).
 - [MQT IonShuttler](https://github.com/cda-tum/mqt-ion-shuttler) - Exact and heuristic scheduling to manage ion movement within trapped-ion hardware.
 - [MQT Predictor](https://github.com/cda-tum/mqt-predictor) - RL-based compiler optimization. ML-based device selection. Available via the [`mqt.predictor`](https://pypi.org/p/mqt.predictor) Python package.
 - [NchooseK](https://github.com/lanl/NchooseK) - Constraint-programming system that compiles to both circuit-model quantum computers and quantum annealers.
@@ -295,6 +296,7 @@ For a curated list of learning resources please check out [desireevl's repo](htt
 - [Qlasskit](https://github.com/dakk/qlasskit) - Compiler from Python language to quantum circuits and binary quadratic models.
 - [Qubiter](https://github.com/artiste-qb-net/qubiter) - Quantum compiler with Python wrapper for [LAPACK's CS Decomposition](http://www.netlib.org/lapack/README-CSD.html) to build a binary tree of matrices.
 - [SAT Circuits Engine](https://github.com/ohadlev77/sat-circuits-engine) - Qiskit-based high-level quantum circuits synthesis engine for n-SAT problems.
+- [UCC](https://github.com/unitaryfoundation/ucc/) - Unitary Compiler Collection: frontend-agnostic open-source quantum compiler developed by Unitary Foundation.
 
 **Rust**
 - [TKET2](https://github.com/CQCL/tket2) - Rewrite based toolkit for optimization of quantum programs (version 2 of the [TKET](https://github.com/CQCL/tket) quantum compiler).
@@ -419,6 +421,9 @@ For a curated list of learning resources please check out [desireevl's repo](htt
 - [MQT QCEC](https://github.com/cda-tum/mqt-qcec) - Equivalence checking of quantum circuits. Verifying compilation flows. Available via the [`mqt.qcec`](https://pypi.org/p/mqt.qcec) package and fully compatible with Qiskit.
 - [MQT QuSAT](https://github.com/cda-tum/mqt-qusat) - Encoding and equivalence checking of Clifford circuits using satisfiablity testing (SAT).
 
+**Java**
+- [PlankDB](https://github.com/swampus/plank-db) – A Spring Boot key-value store with Grover-powered quantum search via IBM Qiskit. Clean Architecture, REST API, classical + quantum modes supported.
+
 **Mathematica**
 - [Quantum](http://homepage.cem.itesm.mx/lgomez/quantum/) - Free Mathematica add-on for Dirac Bra-Ket Notation, Quantum Algebra, Quantum Computing and the QHD approximation to the Heisenberg Equations of Motion.
 - [QI](https://github.com/rogercolbeck/QI) - Toolkit for common quantum information functions.
@@ -446,6 +451,7 @@ For a curated list of learning resources please check out [desireevl's repo](htt
 
 **TypeScript**
 - [SpookyIDE](http://github.com/Spooky-Manufacturing/SpookyIDE) - IDE designed for quantum computing.
+
 
 **Others**
 - [Quil syntax highlighter](https://github.com/JavaFXpert/quil-syntax-highlighter) - Syntax highlighter for PyCharm.
